@@ -218,7 +218,7 @@ export default function Category() {
   return (
     <div className="grid grid-cols-3 gap-4">
         {items.map(item =>(
-            <section key={item.id} className={`bg-[url(/id${(item.id)}.jpg)] text-black bg-contain h-[300px] mt-11`}>
+            <section key={item.id} className={` text-black bg-cover h-[300px] mt-11`} style={{backgroundImage: `url(/id${item.id}.jpg)`}}>
                 <h2>{item.title}</h2>
             </section>
         ))}
