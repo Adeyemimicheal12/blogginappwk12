@@ -16,7 +16,7 @@ export default function page() {
         </div>
         <div>
             <h2 className='font-bold mt-10 mb-4'>Up-coming business bloggers, you need to watch </h2>
-            <p>The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>The printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
         <div className='mt-14'>
             <ol>
@@ -25,7 +25,7 @@ export default function page() {
                 <li><span className='font-bold'>.</span> It is a long established fact that a reader will.</li>
                 <li><span className='font-bold'>.</span> distracted by the readable content of a page when looking at its layout</li>
             </ol>
-            <p className='mt-16'>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            <p className='mt-16'>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
         </div>
         <div className='w-[100%] ml-[7px] mt-10 h-[600px]'>
         <iframe width="1100" height="600" src="https://www.youtube.com/embed/I_skq1F1ugI?si=2vBsr1nBNqvi4-Kt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

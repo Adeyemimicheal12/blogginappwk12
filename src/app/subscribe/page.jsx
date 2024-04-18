@@ -7,7 +7,7 @@ export default function page() {
             <FaRegBell />
         </div>
         <div className='text-center'>
-            <h1 className='text-3xl font-bold p-6'>Don't miss out - millions have joined <br /> Flexo</h1>
+            <h1 className='text-3xl font-bold p-6'>Don&apos;t miss out - millions have joined <br /> Flexo</h1>
             <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give <br /> you a complete account of the system, and expound.</p>
         </div>
         <div className='flex text-center justify-center p-9'>

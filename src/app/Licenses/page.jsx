@@ -7,7 +7,7 @@ export default function page() {
       <div className='pt-24  w-[90%] pl-[90px]'>
         <div className='text-center bg-blue-300 p-5'>
             <h1 className='text-5xl font-bold p-10'>Licenses</h1>
-            <p>All graphical assets in this template are licensed for personal and commercial use. If you'd like to use a specific asset, please check the license below.</p>
+            <p>All graphical assets in this template are licensed for personal and commercial use. If you&apos;d like to use a specific asset, please check the license below.</p>
         </div>
         </div>
         <div className='pt-24 w-[90%] pl-[90px]'>

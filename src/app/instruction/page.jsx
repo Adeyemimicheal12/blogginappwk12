@@ -30,7 +30,7 @@ export default function page() {
         </div>
         <div className='mt-20 border-2 border-black'>
             <h2 className='text-3xl font-bold bg-red-300 p-8'>Template Support</h2>
-            <p className='mt-8'>We'll be glad to help you out with your queries. Please contact us at the Webflow template support page and you shall hear back very soon.</p>
+            <p className='mt-8'>We&apos;ll be glad to help you out with your queries. Please contact us at the Webflow template support page and you shall hear back very soon.</p>
             <h3 className='font-bold mt-5'>Custom Design & Development</h3>
             <p className='mt-8 mb-4'>If you are looking for Custom Design & Development with Webflow, feel free to reach us via <Link href='https://www.webestica.com/webflow-development'>Reach us out here.</Link></p>
         </div>
@@ -41,7 +41,7 @@ export default function page() {
             <p><strong>. Image Formats</strong>There are mainly 2 common file types that are used for web images which are JPEG and PNG. For images with a Flat Background use JPEG images, for images with a Transparent background use PNG images.</p>
             <p><strong>. Compress images to WebP: </strong>For a better loading site, compress existing image assets with the built-in<Link href='https://university.webflow.com/'> WebP conversion tool.</Link> Please note, Webflow compression tool is currently not available within the CMS. You will need to manually convert them to WebP format and compress them separately.</p>
             <p><strong>. Clean up:</strong><Link href='https://university.webflow.com/lesson/triggers-and-animations'>Clean up interactions</Link> and <Link href='https://university.webflow.com/lesson/style-selectors-panel?topics=layout-design#clean-up'> Clean up CSS styles </Link>before publishing your site.</p>
-            <p><strong>. Audit panel:</strong>Before going live with your site, find and fix accessibility issues with Webflow's Audit panel.</p>
+            <p><strong>. Audit panel:</strong>Before going live with your site, find and fix accessibility issues with Webflow&apos;s Audit panel.</p>
             <p><strong>. Compressing Images:</strong>For a better loading site, we recommend optimizing all your images using services like <Link href='https://tinypng.com/'>Tinypng.com</Link></p>
             <p><strong>. SEO:</strong>Before publishing your site, make sure to edit the Title Tag, Meta Description, etc. For more information on SEO and how to optimize your website, Visit <Link href='https://university.webflow.com/lesson/seo-title-meta-description?topics=seo'>Add SEO title and meta description </Link> and <Link href='https://webflow.com/blog/seo-and-webflow-the-essential-guide'>SEO and Webflow: the essential guide.</Link></p>
         </div>

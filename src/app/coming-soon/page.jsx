@@ -10,7 +10,7 @@ export default function page() {
         </div>
         <div>
             <h1 className='text-3xl font-bold'>We are coming soon!</h1>
-            <p className='p-4'>We're bringing something fresh and exciting to the table. Be the first to experience it!</p>
+            <p className='p-4'>We&apos;re bringing something fresh and exciting to the table. Be the first to experience it!</p>
         </div>
         <div className='p-20 h-11 mr-48 ml-48'>
             <input type="email" name="email" id="email" placeholder='Your Email'/>
