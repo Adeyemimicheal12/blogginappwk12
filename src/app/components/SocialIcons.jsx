@@ -6,19 +6,19 @@ import Link from 'next/link';
 export default function SocialIcons() {
   return (
     <div className='flex p-9 gap-5'>
-                <Link href='https://www.instagram.com/'>
+                <Link href='https://www.instagram.com/' className='rounded-full border-2 border-blue-700 text-2xl p-2 hover:bg-blue-800'>
                 <FaInstagram />
                 </Link>
 
-                <Link href=' https://twitter.com/home'>
+                <Link href=' https://twitter.com/home' className='rounded-full border-2 border-red-700 text-2xl p-2 hover:bg-red-700'>
                 <FaXTwitter />
                 </Link>
 
-                <Link href='https://www.linkedin.com/login'>
+                <Link href='https://www.linkedin.com/login' className='rounded-full border-2 border-yellow-700 text-2xl p-2 hover:bg-yellow-700'>
                 <FaLinkedin />
                 </Link>
 
-                <Link href='https://github.com/'>
+                <Link href='https://github.com/' className='rounded-full border-2 border-green-700 text-2xl p-2 hover:bg-green-700'>
                 <FaGithub />
                 </Link>
 
