@@ -18,7 +18,7 @@ export default function Footer() {
       <div className=''>
         <h2>Category</h2>
         <div className='m-5 hover:underline to-black'>
-          <Link href="/category/Sport">
+          <Link href="/category/Sport" className='hover:underline'>
           < Catlinks title='sport' bg='bg-red-700'/>
           </Link>
           <Link href="/category/Fashion">
@@ -40,7 +40,7 @@ export default function Footer() {
         <div className='flex justify-start items-start gap-4 m-5'>
           <ol>
           <Pagelinks title=' ' link='/'/>
-          <Pagelinks title='Blog' link='/'/>
+          <Pagelinks title='Home' link='/'/>
           <Pagelinks title='Author'  link='/author'/>
           <Pagelinks title='Pricing' link='/pricing'/>
           <Pagelinks title='About Us' link='/about'/>

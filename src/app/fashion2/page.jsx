@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 
 export default function page() {
   return (
@@ -40,6 +41,51 @@ export default function page() {
         <div className='mt-16 mb-14'>
             <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
         </div>
+        <p className='font-bold text'>Other Blog</p>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-rows-1 gap-9 mt-10'>
+          <div>
+            <Link href='/Games'>
+            <Image src='/game.jpg' alt='fun' width='800' height='100' className='h-[480px] hover:scale-110 transition-all'/>
+            <div className="relative bottom-0 left-0 text-red-400 mb-2">
+              <span className='font-bold bg-white direction-1tr whitespace-pre-wrap break-clone mb-0 p-4 text-base leading-7 inline-block'>Indie Game Development- From Concept to Release</span>
+              <div className="text-black p-4 text-xs leading-3 inline-block absolute bottom-[460px] left-5 box-border unicode-isolate bg-red-300">Game</div>
+              <div className='flex gap-4'>
+              <p>By Emily Davis</p>
+              <p>June 15,2023</p>
+              </div>
+            </div>
+            </Link>
+          </div>
+          <div>
+            <Link href='/sport'>
+            <Image src='/sport.jpg' alt='fun' width='800' height='400' className='h-[480px] hover:scale-110 transition-all'/>
+            <div className="relative bottom-0 left-0 text-red-400 mb-2">
+              <span className='font-bold bg-white direction-1tr whitespace-pre-wrap break-clone mb-0 p-4 text-base leading-7 inline-block'>Strength Training for Endurance Athletes</span>
+              <div className="text-black p-4 text-xs leading-3 inline-block absolute bottom-[430px] left-5 box-border unicode-isolate bg-blue-400">Sport</div>
+              <div className='flex gap-4'>
+                <p>By Michael Johnsons</p>
+                <p>June 15,2023</p>
+              </div>
+
+            </div>
+            </Link>
+          </div>
+          <div>
+            <Link href='/game'>
+            <Image src='/game2.jpg' alt='fun' width='800' height='400' className='h-[480px] hover:scale-110 transition-all'/>
+            <div className="relative bottom-0 left-0 text-red-400 mb-2">
+              <div className="text-black p-4 text-xs leading-3 inline-block absolute bottom-[440px] left-5 box-border unicode-isolate bg-red-300">Game</div>
+              <span className='font-bold bg-white direction-1tr whitespace-pre-wrap break-clone mb-0 p-4 text-base leading-7 inline ml-20 mt-28'>The Art of Game Design</span>
+              <div className='flex gap-4'>
+                <p>By Robert Johnson</p>
+                <p>June 15,2023</p>
+              </div>
+            </div>
+            </Link>
+          </div>
+          </div>
     </div>
+
+    
   )
 }

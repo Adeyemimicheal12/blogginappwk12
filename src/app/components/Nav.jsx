@@ -16,9 +16,9 @@ export default function Nav() {
         <p className='text-black ml-4 font-semibold text-2xl mr-auto'>KennyBusin</p>
         <ul className='flex gap-6 list-none font-bold text-2xl justify-center items-center text-black'>
           <div className='flex gap-x-5 text-center m-x-5'>
-            <Link href='/'>Home</Link>
-            <Link href='/category'>Pages</Link>
-            <Link href='/about'>About</Link>
+            <li><Link href='/'>Home</Link></li>
+            <li><Link href='/category'>Pages</Link></li>
+            <li><Link href='/about'>About</Link></li>
           </div>
               <div className='flex p-9 gap-5 '>
                 <Link href='https://www.instagram.com/' className='rounded-full border-2 border-blue-700 text-2xl p-2 hover:bg-blue-800'>
