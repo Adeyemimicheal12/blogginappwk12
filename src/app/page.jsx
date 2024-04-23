@@ -10,7 +10,7 @@ export default function page() {
     <section>
          <div>
             <Link href='/fashion'>
-          <Image src='/home.jpg' alt='a fashion' width='1500' height='400' className='w-[80%] ml-[140px] mt-24 h-[700px]  lg:grid-cols-1'/>
+          <Image src='/home.jpg' alt='a fashion' width='1500' height='400' className='w-4/5 ml-[140px] mt-24 h-[700px]  lg:grid-cols-1 sm:grid'/>
            <div className="absolute top-0 left-0 p-48 text-black">
            <p className='h-7 w-15 bg-red-300 font-bold'>Fashion</p>
            </div>
@@ -18,11 +18,11 @@ export default function page() {
            <CiBookmark  className='rounded-full border-2 border-white bg-blue-400'/>
            </div>
            <div className="absolute bottom-0 left-0 text-black mb-2">
-           <p className='font-bold text-6xl ml-44 h-32 w-15 bg-red-300 '>Exploring the vibrant world <br />  of arts and entertainment</p>
+           <p className='font-bold md:text-6xl ml-44 h-32 w-15 bg-red-300 '>Exploring the vibrant world <br />  of arts and entertainment</p>
            </div>
            </Link>
         </div>
-        <div className='flex mt-10 justify-center items-center gap-6'>
+        <div className='flex flex-wrap mt-10 justify-center items-center gap-6 rounded p-16'>
             <Link href='/category/Sport'><p className='border-2 border-red-300'>Sport</p></Link>
             <Link href='/category/Fashion'><p className='border-2 border-yellow-400'>Fashion</p></Link>
             <Link href='/category/Technology'><p className='border-2 border-blue-400'>Technology</p></Link>
@@ -172,11 +172,11 @@ export default function page() {
           </div>
           </div>
           <div className='bg-blue-300 mt-10 p-14 text-center'>
-            <h2 className='font-bold text-3xl mt-6'>Stay in the loop with our latest blog updates</h2>
+            <h2 className='font-bold text-xl md:text-3xl mt-4'>Stay in the loop with our latest blog updates</h2>
             <p>Subscribe to our newsletter and never miss an update! Join our community to receive the latest articles</p>
-            <div className='justify-center items-center'>
+            <div className='justify-center items-center mt-4'>
             <Link href='/subscribe'>
-              <div className='flex justify-center items-center gap-2 bg-black text-white h-20 w-28'>
+              <div className='flex justify-center items-center align-center text-center gap-2 bg-black text-white h-20 w-32 px-4'>
                 <span className='text-white'>Subscribe</span>
                 <FaCrown className='text-white'/>
                 </div>
