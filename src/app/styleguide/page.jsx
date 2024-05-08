@@ -9,7 +9,7 @@ export default function page() {
             <p>Manage div cla the look and feel of the entire website from our style guide. Style and components used on the site are documented here, and any changes made will be immediately visible across all pages.</p>
       </div>
       <div className='mt-20 border-2 border-black'>
-        <div className='bg-red-300 p-9 mt-4 mr-5 ml-5'>
+        <div className='bg-black p-9 mt-4 mr-5 ml-5'>
         <h2 className='font-bold text-2xl'>Buttons</h2>
         <p>A variety of button styles are available throughout the website.</p>
         </div>
@@ -19,7 +19,7 @@ export default function page() {
         </div>
       </div>
       <div className='mt-20 border-2 border-black'>
-        <div className='bg-red-300 p-9 mr-3 ml-3 mt-4'>
+        <div className='bg-black p-9 mr-3 ml-3 mt-4'>
         <h2 className='font-bold text-2xl'>Blockquote</h2>
         <p>Styling for blockquotes.</p>
         </div>
@@ -28,7 +28,7 @@ export default function page() {
         </div>
       </div>
       <div className='mt-20 border-2 border-black'>
-        <div className='bg-red-300 p-9'>
+        <div className='bg-black p-9'>
         <h2>Margins</h2>
         <p>Helper margin classes are available to add a margin between elements and keep spacing values consistent and unified throughout the site.</p>
         </div>

@@ -12,13 +12,13 @@ export default function Footer() {
         <div className='flex gap-x-2 items-center capitalize'>
         <p>Coming Soon </p>
         </div>
-        
+        <p className='font-bold'>Check our website for nore information</p>
         <SocialIcons/>
       </div>
       <div className=''>
         <h2>Category</h2>
         <div className='m-5 hover:underline to-black'>
-          <Link href="/category/Sport" className='hover:underline'>
+          <Link href="/blog/The-Science-of-Sports-Performance" >
           < Catlinks title='sport' bg='bg-red-700'/>
           </Link>
           <Link href="/category/Fashion">

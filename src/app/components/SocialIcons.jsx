@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function SocialIcons() {
   return (
-    <div className='flex p-9 gap-5'>
+    <div className='flex gap-5'>
                 <Link href='https://www.instagram.com/' className='rounded-full border-2 border-blue-700 text-2xl p-2 hover:bg-blue-800'>
                 <FaInstagram />
                 </Link>
@@ -22,7 +22,7 @@ export default function SocialIcons() {
                 <FaGithub />
                 </Link>
 
-                <Link href='' className='flex items-center gap-2 hover:bg-blue-900 bg-slate-900'>
+                <Link href='' className='flex items-center gap-2 hover:bg-blue-900 border-black bg-black border-2 rounded'>
                 <span>Subscribe</span>
                 <FaCrown />
                 

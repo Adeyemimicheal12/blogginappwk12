@@ -7,7 +7,7 @@ export default function CategorySlug({params}) {
   return (
     <div className="grid grid-cols-3 gap-4">
     {filteredCat.map(item =>(
-        <section key={item.id} className={`text-black bg-contain h-[300px]`} style={{backgroundImage: `url(/id${item.id}.jpg)`}}>
+        <section key={item.id} className={`text-red-500 bg-contain h-[300px]`} style={{backgroundImage: `url(/id${item.id}.jpg)`}}>
             <h2>{item.title}</h2>
         </section>
     ))}
